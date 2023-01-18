@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    background: #0A0A0B;
+    border: 1px solid red;
+}
+
+/* header start */
+.header {
+    margin: 29px 0;
+    padding: 0 129px;
+}
+
+.header-inner {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: #0A0A0B; */
+}
+
+.header-nav {
+    width: 358px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-item {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* header end */
+
+/* main start */
+
+.main {
+    margin-top: 100px;
+}
+
+.main-inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-titles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-head-title {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.main-title {
+    margin-top: 20px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.main-text {
+    margin-top: 8px;
+    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BABEC4;
+}
+
+.main-items {
+    margin-top: 41px;
+    width: 406px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.main-item-title {
+    margin-top: 22px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.main-item-text {
+    margin-top: 4px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #888B91;
+}
+
+.main-link {
+    margin-top: 56px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #02DB8A;
+    filter: drop-shadow(0px 0px 16px #02DB8A);
+    border-radius: 50%;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.main-link-circle {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #099260;
+    border-radius: 50%;
+}
+
+/* main end */
+
+/* about-cars start */
+.about-cars {
+    margin-top: 104px;
+}
+
+.about-cars-inner {
+    padding: 0 155px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.about-left {
+    position: relative;
+
+}
+
+.about-dullness {
+    position: absolute;
+    left: 283px;
+    top: 265px;
+    padding: 16px 20px;
+    width: 197px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+}
+
+.about-dullness-title {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.about-dullness-text {
+    margin-top: 8px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.about-right {
+    margin-left: 88px;
+}
+
+.about-right-title {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #F1F2F3;
+}
+
+.about-right-text {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BABEC4;
+}
+
+.about-right-button {
+    padding: 14px 32px;
+    background: #4177DC;
+    border-radius: 4px;
+}
+
+.about-right-link {
+    text-decoration: none;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+/* about-cars end */
+
+/* choose start */
+
+.choose {
+    margin-top: 207px;
+}
+
+.choose-inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choose-title {
+    width: 278px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #F1F2F3;
+}
+
+.choose-items {
+    width: 850px;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.choose-item {
+
+    padding: 32px 22px 24px 24px;
+    background: #111213;
+    border-radius: 20px;
+}
+
+.choose-item-title {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #F1F2F3;
+}
+
+.choose-item-text {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BABEC4;
+}
+
+.choose-item-element {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.choose-item-img {
+    width: 180px;
+    height: 81px;
+}
+
+.choose-item-elements {}
+
+.choose-item-number {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+/* choose end */
+
+/* feature start */
+
+.feature {
+    margin-top: 121px;
+}
+
+.feature-inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.feature-title {
+    margin-bottom: 140px;    
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #F1F2F3;
+}
+
+.feature-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 870px;
+    height: 900px;
+    background-image: url(../images/Map\ car.png);
+    background-repeat: no-repeat;
+    background-size: 870px 800px;
+}
+/* feature end */
